@@ -70,7 +70,7 @@ def threaded_client(connection):
 
 def upload_to_spreadsheet(counts):
     sheet = login_open_sheet(GDOCS_OAUTH_JSON, GDOCS_SPREADSHEET_NAME, GDOCS_WORKSHEET_NAME)
-    sheet.append_row(counts)
+    sheet.insert_row(counts)
 
 
 def upload_count():

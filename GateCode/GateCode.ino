@@ -63,7 +63,7 @@ void loop() {
     valSensor = "Gate 1";
     HTTPsend();
     Serial.println("Person detected");
-    delay(1000);
+    delay(500);
     Serial.println("Recommencing monitoring");
   }
 
